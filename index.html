@@ -1,16 +1,47 @@
-<!-- Votre Objectif
-Vous avez été engagé pour construire une galerie de présentation de produits avec des animations fluides en mode clair et foncé, en utilisant uniquement HTML, CSS et JS (pas de frameworks).
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Codez le Vibe – Galerie Produits</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
 
+<body>
+  <header>
+    <h1>🧠 Codez le Vibe</h1>
+    <button id="themeToggle">🌙 Mode sombre</button>
+  </header>
 
-Instructions
-Utilisez ChatGPT ou DeepSeek pour demander :
-" Créez une galerie de produits à trois cartes avec des effets de survol, une bascule de thème (clair/foncé) et des animations en fondu en utilisant HTML/CSS/JS".
+  <section class="gallery">
+    <div class="card">
+      <img src="https://picsum.photos/400/250?random=1" alt="Produit Alpha">
+      <h2>Digital Flow</h2>
+      <p>Design moderne et performance optimisée.</p>
+      <div class="price">5000 TND</div>
+      <button class="offer-btn">🎁 Offre spéciale</button>
 
- 
-Collez le code dans Replit ou dans votre éditeur local.
+    </div>
 
- 
-Testez la bascule et les animations, améliorez-les avec les suggestions de l'IA si nécessaire.
+    <div class="card">
+      <img src="https://picsum.photos/400/250?random=2" alt="Produit Beta">
+      <h2>Neutral Vision</h2>
+      <p>Une expérience fluide et intuitive.</p>
+      <div class="price">4500 TND</div>
+      <button class="offer-btn">🎁 Offre spéciale</button>
 
- 
-Poussez votre code final sur GitHub et partagez le lien vers le repo. -->
+    </div>
+
+    <div class="card">
+      <img src="https://picsum.photos/400/250?random=3" alt="Produit Gamma">
+      <h2>Synthetic Light</h2>
+      <p>Puissance, élégance et innovation.</p>
+      <div class="price">6000 TND</div>
+      <button class="offer-btn">🎁 Offre spéciale</button>
+
+    </div>
+  </section>
+
+  <script src="main.js"></script>
+</body>
+</html>
